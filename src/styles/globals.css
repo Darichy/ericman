@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loginGradient {
+  background: linear-gradient(
+    45deg,
+    #272a37 50%,
+    #272a37f3 65%,
+    #272a37bc 78%,
+    #ff990033
+  );
+}
+
+#search {
+  border-radius: 100px !important;
+
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* #search:focus {
+  transform: translateX(-100px);
+  transition: all 0.4s ease;
+  transition-timing-function: linear;
+} */
+.MuiDataGrid-columnHeaders {
+  background-color: #cfb9d589;
+
+  /* color: white; */
+  /* height: 100px; */
+}
+
+.columnHeaderTitle {
+  font-weight: bolder !important;
+}
+
+.hideScroll::-webkit-scrollbar {
+  display: none;
+}
+
+/*MuiButtonBase-root {
+  color: white;
+} */
+
+/* .MuiInputBase-input:focus {
+  border: 2px solid greenyellow;
+  font: 16;
+  width: auto;
+  padding: 10px 12px;
+  border-radius: 4;
+  position: relative;
+} */
+
+.MuiOutlinedInput-root fieldset {
+  /* border: 2px solid rgb(143, 176, 199); */
+  /* background-color: rgb(243, 248, 255); */
+  height: 40px;
+  color: #3147a9;
+}
+
+.MuiOutlinedInput-root label {
+  color: aqua;
+}
+/* .MuiOutlinedInput-root fieldset {
+  border: 2px solid rgb(205, 205, 205);
+} */
+.MuiOutlinedInput-root:focus fieldset {
+  border: 2px solid rgb(205, 205, 205) !important;
+}
+.MuiDataGrid-row {
+  height: 100px;
+}
+.placeholder {
+  transform: translateX(-100px);
+  transition: all 0.2s ease-in;
+  color: gray;
+  transition-timing-function: linear;
+}
+
+.placeholder-off {
+  transform: translateX(0);
+  transition: all 0.4s ease-out;
+  transition-timing-function: linear;
+}
+
+/* #search:focus,
+#search::placeholder {
+  color: aqua !important;
+  transition: all 1.2s ease-in !important;
+  padding-left: 15px;
+  transform: translateX(-100px);
+} */
+
+/* #search:focus #search::placeholder {
+  transition: all 0.4s ease-in !important;
+  padding-left: 15px;
+  position: absolute;
+  right: 12px;
+} */
+
+/* #combo-box-demo {
+  height: 1px !important;
+} */
+/* Define the styles for the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.shrink {
+  transform: translate(0, -1.5rem) scale(0.75);
+  transform-origin: top left;
+}
+
+/* Define the styles for the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker color on hover */
+}
+
+/* Define the styles for the scrollbar track when it's in the background */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the track */
+  border-radius: 4px; /* Rounded corners for the track */
+}
