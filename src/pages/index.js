@@ -129,7 +129,7 @@ function Home() {
           <div className="flex text-white space-x-4 items-center">
             <div className="rounded-full w-6 h-6 bg-blue-400"></div>
             <div className="flex flex-col">
-              <span>Ericman Block Manufacturing Ent.</span>
+              <span>Ericamp Block Manufacturing Ent.</span>
               <span className="text-blue-200 font-extralight text-xs md:hidden ">
                 Your builder's friend
               </span>
