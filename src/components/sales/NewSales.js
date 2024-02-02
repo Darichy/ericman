@@ -1272,9 +1272,7 @@ export function ReceiptComponent({ data }) {
           </h2>
           <div className="flex space-x-2 text-gray-600">
             <span className="bg-blue-200 rounded-sm w-[65%] p-2">
-              Dealers in: Iron Rods , PVC pipes , Iron Sheets , Car Plates ,
-              Metal Poles , Cement , Tiles , Plastic T&G , Accessories & General
-              Construction
+              Dealers in: Blocks , Cement , Iron Rods & General Merchant
             </span>
             <span className="p-2 w-[35%] ">
               Contact us:
@@ -1289,7 +1287,7 @@ export function ReceiptComponent({ data }) {
                   <path d="M1.5 9.589v-.745a3 3 0 011.578-2.641l7.5-4.039a3 3 0 012.844 0l7.5 4.039A3 3 0 0122.5 8.844v.745l-8.426 4.926-.652-.35a3 3 0 00-2.844 0l-.652.35L1.5 9.59z" />
                 </svg>
                 {"   "}
-                <span> P.O.Box 105 , Nkawkaw</span>
+                <span> P.O.Box 337 , Gicel Weija , Accra</span>
               </span>{" "}
               <span className="flex space-x-2">
                 <svg
@@ -1305,7 +1303,7 @@ export function ReceiptComponent({ data }) {
                   />
                 </svg>
                 {"   "}
-                <span>026-6413897 , 024-4680610</span>
+                <span>024-4453670 , 026-0665399</span>
               </span>
             </span>
           </div>

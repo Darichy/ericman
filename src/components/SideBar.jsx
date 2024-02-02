@@ -279,8 +279,8 @@ const Sidebar = ({ setTitle, setToggle, setShowDrawer }) => {
       </div>
       <div className="flex flex-col justify-between">
         <div className="px-3 py-[2px] text-gray-500 flex items-center space-x-3">
-          <Image src={"/logo.png"} height={70} width={70} />
-          {isOpen && <div className="">Ericman Enterprise</div>}
+          <img src={"/logo.png"} className="h-20 " height={100} width={70} />
+          {isOpen && <div className="">Ericamp Enterprise</div>}
         </div>
         <hr />
         <div className="flex justify-end">
